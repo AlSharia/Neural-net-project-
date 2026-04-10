@@ -23,9 +23,9 @@ The goal of this project is to develop a Deep Learning model to classify pediatr
 This project aims to predict whether a customer will subscribe to a bank term deposit based on their demographic and behavioral data. Since the target variable is binary (Yes/No), **Logistic Regression** was used as the primary classification algorithm to build a predictive model.
 
 ## Methodology
-- **Data Encoding:** Categorical variables (e.g., job, marital status) were converted into numerical values using `LabelEncoder`.
-- **Feature Scaling:** Numeric features were normalized using `StandardScaler` to ensure the Logistic Regression model converges efficiently.
-- **Handling Class Imbalance:** The dataset was heavily imbalanced (more 'No' than 'Yes'). To fix this, `class_weight='balanced'` was implemented during model training.
+- **Data Encoding :** Categorical variables (e.g., job, marital status) were converted into numerical values using `LabelEncoder`.
+- **Feature Scaling :** Numeric features were normalized using `StandardScaler` to ensure the Logistic Regression model converges efficiently.
+- **Handling Class Imbalance :** The dataset was heavily imbalanced (more 'No' than 'Yes'). To fix this, `class_weight='balanced'` was implemented during model training.
 - **Feature Importance:** Logistic Regression coefficients were analyzed to identify which banking behaviors most strongly influence a customer's decision.
 
 ## Findings
