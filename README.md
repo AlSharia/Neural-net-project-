@@ -1,7 +1,7 @@
 # Problem Set 01: Pneumonia Classification from Chest X-Ray Images
 
 ## Approach
-The goal of this project is to develop a Deep Learning model to classify pediatric chest X-ray images into two categories: **Normal** and **Pneumonia**. Given the complexity of medical images, a Convolutional Neural Network (CNN) was chosen as the primary approach to automatically extract spatial features and patterns from the X-rays.
+The goal of this project is to develop a Deep Learning model to classify pediatric chest X-ray images into two categories: **Normal** and **Pneumonia**. Given the complexity of medical images, a Convolutional Neural Network (CNN) was chosen as the primary approach to automatically extract spatial features and patterns from the X-rays..
 
 ## Methodology
 - **Data Preprocessing:** Images were resized to 150x150 pixels and normalized to a range of [0, 1].
